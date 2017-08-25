@@ -1,15 +1,24 @@
 # LEMP stack
-a simple LEMP using the *Offical* Docker Repository for Alpine Linux, Nginx, MariaDB, PHP and phpMyAdmin
+a **VERY** simple LEMP using the *Offical* Docker Repository for Alpine Linux, Nginx, MariaDB, PHP and phpMyAdmin.
 
-### for start LEMP: 
+Based from: [https://github.com/serkan7/docker-compose-lemp]
+
+### Start LEMP:
 ``docker-compose up -d``
-### for stop LEMP:
+### Stop LEMP:
 ``docker-compose stop``
-### for remove LEMP:
+### Destroy LEMP:
 `` docker-compose down``
 
-![lemp-container](https://github.com/serkan7/docker-compose-lemp/blob/master/LEMP/code/img/LEMP.png)
+## Services:
 
-![php](https://github.com/serkan7/docker-compose-lemp/blob/master/LEMP/code/img/php.png)
+### WEB
+http://192.168.1.35:8080
 
-![phpMyAdmin](https://github.com/serkan7/docker-compose-lemp/blob/master/LEMP/code/img/phpMyAdmin.png)
+### PHPMYADMIN
+http://192.168.1.35:8880
+
+### MYSQL CREDENTIALS
+Host: mariadb
+User: root
+Password: root
