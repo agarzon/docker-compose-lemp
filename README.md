@@ -17,8 +17,5 @@ http://192.168.1.35:8080
 
 ### PHPMYADMIN
 http://192.168.1.35:8880
-
-### MYSQL CREDENTIALS
-Host: mariadb
-User: root
-Password: root
+- User: root
+- Password: root
