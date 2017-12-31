@@ -1,7 +1,7 @@
 # LEMP stack
 a **VERY** simple LEMP using the *Offical* Docker Repository for Alpine Linux, Nginx, MariaDB, PHP and phpMyAdmin.
 
-Based from: [https://github.com/serkan7/docker-compose-lemp]
+Based from: [https://github.com/frekans7/docker-compose-lemp]
 
 ### Start LEMP:
 ``docker-compose up -d``
